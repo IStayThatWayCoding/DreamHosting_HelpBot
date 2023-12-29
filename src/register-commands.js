@@ -36,7 +36,7 @@ const commands = [
                     {
                         name: "prices",
                         value: "Prices"
-                    }
+                    },
 
                 ]
             },
