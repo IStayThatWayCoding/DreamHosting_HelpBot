@@ -46,7 +46,8 @@ bot.on('interactionCreate', async (interaction) => {
     function searchInWiki(input) {
     const category = {
       'Database': 'Database',
-      'Files': 'Files'
+      'Files': 'Files',
+      'Prices': 'Prices',
     }[input];
 
     if (category && wikiContent[category]) {
