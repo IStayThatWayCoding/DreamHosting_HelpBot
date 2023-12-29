@@ -33,6 +33,10 @@ const commands = [
                         name: 'files',
                         value: 'Files'
                     },
+                    {
+                        name: "prices",
+                        value: "Prices"
+                    }
 
                 ]
             },

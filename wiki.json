@@ -9,8 +9,7 @@
         "Method 1: Panel FTP": "Inside of the Dream Hosting panel, you can access your files in the **Files** tab. This is easier if you were to just edit something small in your files, such as a configuration file for a plugin. This is not recommended for bulk uploads, such as plugin files or world files, as the panel does not support bulk uploads.",
         "Method 2: FileZilla (Recommended)": "This method of accessing your files is highly recommended by Dream Hosting. On FileZilla, you can upload many files at the same time. There are a few steps in order to access your files on the program:\n\n• Download FileZilla: [filezilla-project.org](https://filezilla-project.org)\n• On your Dream Hosting server panel, click the **Settings** tab. There, you will see **SFTP DETAILS**. Don’t just paste the information in, as it may not work.\n• Enter the following into FileZilla:\n           • **Host:** Enter the **SERVER ADDRESS** on your panel. It may look similar to this: *sftp://node1.dreamhosting.online:2022*\n           • **Username:** Click the **USERNAME** box on your panel to copy and paste.\n           • **Password:** Your panel password\n           • **Port:** Depending on which node you are on, you will have a different port. You can view your port at the __end of your SFTP address.__ \n                        For example: *sftp://node1.dreamhosting.online:*__2022__ *(enter this into FileZilla!)*\n• Click on **Quickconnect** on FileZilla\n• If it doesn’t work, make sure all info is entered correctly\n• For any help, please contact us!\n\nYou may use other FTP programs, like WinSCP. If you use WinSCP, click the green **LAUNCH SFTP** button and it will prompt for your panel password."
     },
-    "Database Tools": {
-        "Sequelize": "Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite, and Microsoft SQL Server.",
-        "Mongoose": "Mongoose is an elegant MongoDB object modeling for Node.js."
+    "Prices": {
+        "Java": "Skeleton Plan | 2gb | Monthly: $2.50 | Quarterly: $5.00 | Yearly: $22.50\nCreeper Plan | 4gb | Monthly: $7.50 | Quarterly: $15.00 | Yearly: $67.50"
     }
 }
